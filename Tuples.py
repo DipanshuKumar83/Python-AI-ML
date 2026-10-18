@@ -1,0 +1,5 @@
+mark =(90,94,86,98,61,"Roll_No","Subject")
+print(mark.count(90))
+print(type(mark))
+print(mark)
+print(mark[5:])
