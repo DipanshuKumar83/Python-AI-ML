@@ -9,4 +9,6 @@ except ValueError:
     print("Please enter a valid number")
 
 else :
-    print("The answer is:",ans)    
+    print("The answer is:",ans)  
+finally :
+    print("Thsi is finaly block")    
