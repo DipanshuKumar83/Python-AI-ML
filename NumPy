@@ -1,0 +1,51 @@
+import numpy as np
+import time 
+import sys
+
+#python_Array
+arr = np.array([1,2,3,4,5])
+print(arr , type(arr))
+
+
+#python _List 
+size =100_000_000
+py_list = list(range(size))
+start=time.time()
+sq_arr =[x**2 for x in py_list]
+end=time.time()
+print(f"Time will be {end-start} Seconds")
+
+#Array_np
+np_arr=np.array(size)
+start=time.time()
+sq_array=np_arr**2
+end=time.time()
+print(f"time is {end-start} Seconds")
+
+print(f"Numpy Size will be {np_arr.nbytes} bytes")
+
+#creating Array 
+
+Arr =np.array([1,2,3,4,5,6,7,8,9])
+print(Arr)
+print(Arr.dtype)
+print(Arr.shape)
+
+# 2D Array 
+Arr2d =np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(Arr2d)
+print(Arr2d.dtype)
+print(Arr2d.shape)
+
+arr1=np.zeros((2,3) , dtype="int64")
+print(arr1)
+arr2=np.ones((2,3) , dtype="int64")
+print(arr2 ,arr.shape)
+arr3=np.full((3,4),100)
+print(arr3)
+arr4=np.eye(3)
+print(arr4)
+arr5=np.arange(0,11,2)
+print(arr5)
+arr6=np.linspace(0,11,2)
+print(arr6)
