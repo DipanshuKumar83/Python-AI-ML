@@ -13,3 +13,8 @@ print(Sum_of_col)
 #Sum of rows
 sum_of_row=np.sum(Arr2D, axis=1)
 print(sum_of_row)
+
+#3D Array 
+Arr3D=np.array([[[1,2],[4,5],[7,8]] ,[[10,12],[11,22],[1,22]]])
+print(Arr3D.shape)
+print(Arr3D)
