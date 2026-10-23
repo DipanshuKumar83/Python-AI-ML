@@ -4,4 +4,12 @@ print(Number[8])
 print(Number.dtype)
 print(Number.itemsize)
 
-
+Arr2D= np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(Arr2D)
+print(np.sum(Arr2D))
+#Sum of Columns
+Sum_of_col=np.sum(Arr2D,axis=0)
+print(Sum_of_col)
+#Sum of rows
+sum_of_row=np.sum(Arr2D, axis=1)
+print(sum_of_row)
