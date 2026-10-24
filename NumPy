@@ -59,3 +59,13 @@ print(NumArray.ndim)
 
 float_Arr =arr.astype(np.float64)
 print(float_Arr , float_Arr.shape , float_Arr.size) 
+
+
+#MAthematical 
+Arr=np.array([1,2,3,4,5])
+print(Arr.sum())
+print(Arr.prod())
+print(Arr.max())
+print(Arr.min())
+print(Arr.var())
+print(np.median(Arr))
