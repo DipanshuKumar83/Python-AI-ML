@@ -1,0 +1,10 @@
+df=pd.read_csv("D:\Day-10 pandas\Day-10 pandas\employee_data.csv")
+print(df)
+#method 
+df.head()
+df.tail()
+df.sample()
+df.info()
+df.shape
+df.columns
+df.describe()
