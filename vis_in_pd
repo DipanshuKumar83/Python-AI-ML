@@ -1,0 +1,5 @@
+df=pd.read_csv("OneDrive/raw_data.csv")
+print(df)
+
+df["age"].hist()
+df.plot(kind="scatter",x="age",y="income")
