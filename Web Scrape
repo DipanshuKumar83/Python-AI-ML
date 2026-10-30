@@ -1,0 +1,12 @@
+import requests
+
+URL ="https://stephen-king-api.onrender.com/api/books"
+
+res = requests.get(URL)
+
+data = res.json()
+
+URL ="https://www.scrapethissite.com/pages/"
+res = requests.get(URL)
+res.status_code
+res.text
